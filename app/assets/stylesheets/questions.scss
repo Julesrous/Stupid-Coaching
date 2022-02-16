@@ -1,0 +1,57 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+form {
+  height: 30px;
+  width: 350px;
+}
+
+.input {
+  height: 100%;
+  width: 75%;
+  border-color: #ced4d9;
+  border-width: 1px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.button {
+  height: 100%;
+  margin-left: -5px;
+  width: 20%;
+  padding-bottom: 24px;
+  padding-top: 8px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #3279B7;
+  border-width: 1px;
+  color: white;
+  border-color: #3279B7;
+  font-weight: bold;
+}
+
+.input:focus {
+  outline:none;
+}
+
+.container {
+  margin: 20px;
+}
+
+.you{
+  margin-bottom: 20px;
+  border-left: solid;
+  border-width: 5px;
+  border-color: #ced4d9;
+}
+
+.coach{
+  margin-top: 20px;
+  border-left: solid;
+  border-width: 5px;
+  border-color: #ced4d9;
+  background-color: #FFFFE1;
+  width: 300px;
+}
+
+p{
+  margin: 7px;
+}
